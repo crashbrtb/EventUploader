@@ -1,0 +1,9 @@
+@echo off
+setlocal
+cd /d "%~dp0"
+if not exist ".venv\Scripts\python.exe" (
+    echo Ambiente nao instalado. Rodando install.bat primeiro...
+    call install.bat || exit /b 1
+)
+start "" ".venv\Scripts\pythonw.exe" app.py
+endlocal

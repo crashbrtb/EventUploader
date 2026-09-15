@@ -1,0 +1,9 @@
+websocket-client>=1.7.0
+requests>=2.31.0
+zstandard>=0.22.0
+keyring>=25.0
+# Mapeador de torneios (calibração, leitura dos títulos do Journal)
+numpy>=1.26
+opencv-python>=4.9
+Pillow>=10.0
+pytesseract>=0.3.10

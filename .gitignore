@@ -1,0 +1,9 @@
+# Ambiente virtual (criado pelo install.bat)
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Gravações do tráfego do jogo feitas pelo descobrir.py
+gravacoes/
